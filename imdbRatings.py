@@ -180,4 +180,5 @@ def runscript():
 	else:
 		cprint("Invalid inputs. Seek help by running the script with -help or --h", "red")
 
-runscript()
+if __name__ == '__main__':
+	runscript()
